@@ -8,7 +8,7 @@ Original implementation of Centrailty BAsed Genetic-algorithm ([CBAG](link)): st
 5. Assuming your file is named `graph.csv` and you wish to find a solution with burning length `10`, run the following commands in your terminal: 
 ```bash
 $ make
-$ ./CBAG dataset.csv 10
+$ ./CBAG graph.csv 10
 ```
 ## Dataset
 In order to use the algorithm for any desired graph:

@@ -1,5 +1,5 @@
-# CBGA::state-of-the-art hueristic for Graph Burning
-Original implementation of Centrailty Based Genetic Algorithm ([CBGA](link)): state-of-the-art hueristic for solving the graph burning problem.
+# CBAG::state-of-the-art hueristic for Graph Burning
+Original implementation of Centrailty BAsed Genetic-algorithm ([CBAG](link)): state-of-the-art hueristic for solving the graph burning problem.
 
 ## How to Use
 1. Intall the [Boost Library](https://www.boost.org/).

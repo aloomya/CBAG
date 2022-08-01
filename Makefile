@@ -7,8 +7,8 @@ CXXFLAGS = -lstdc++ -std=c++17 -O2
 
 SOURCES = $(wildcard Code/*.cpp Code/BetweennessApprox/*.cpp)
 
-CBGA: $(SOURCES)
-	$(CXX) -I $(BOOST) $(SOURCES) $(CXXFLAGS) -o CBGA
+CBAG: $(SOURCES)
+	$(CXX) -I $(BOOST) $(SOURCES) $(CXXFLAGS) -o CBAG
 
 clean:
-	rm CBGA
+	rm CBAG

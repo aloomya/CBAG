@@ -1,4 +1,3 @@
-CBGA
 .vscode
 .DS_Store
 *.out
@@ -7,3 +6,4 @@ CBGA
 *.sh
 *.a
 *.o
+CBAG

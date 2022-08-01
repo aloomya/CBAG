@@ -1,4 +1,4 @@
-# CBAG::state-of-the-art hueristic for Graph Burning
+# CBAG: state-of-the-art hueristic for Graph Burning
 Original implementation of Centrailty BAsed Genetic-algorithm ([CBAG](link)): state-of-the-art hueristic for solving the graph burning problem.
 
 ## How to Use

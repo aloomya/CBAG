@@ -1,5 +1,5 @@
 # CBAG: state-of-the-art algorithm for Graph Burning
-Official implementation of Centrailty BAsed Genetic-algorithm ([CBAG](link)): state-of-the-art hueristic for solving the graph burning problem.
+Official implementation of Centrailty BAsed Genetic-algorithm ([CBAG](https://arxiv.org/abs/2208.01008)): state-of-the-art hueristic for solving the graph burning problem.
 
 ## How to Use
 1. Intall the [Boost Library](https://www.boost.org/).

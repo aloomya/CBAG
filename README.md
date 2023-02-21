@@ -2,7 +2,7 @@
 Official implementation of Centrailty BAsed Genetic-algorithm ([CBAG](https://arxiv.org/abs/2208.01008)): state-of-the-art hueristic for solving the graph burning problem.
 
 ## How to Use
-1. Intall the [Boost Library](https://www.boost.org/).
+1. Install the [Boost Library](https://www.boost.org/).
 2. Place your your dataset in `./Data` directory. Refer to below section for more information.
 3. Change the value of `Path_To_Your_Boost_Here` in `Makefile` file to the directory where your Boost library is installed in.
 5. Assuming your file is named `graph.csv` and you wish to find a solution with burning length `10`, run the following commands in your terminal: 

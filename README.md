@@ -1,5 +1,5 @@
-# CBGA::state-of-the-art heuristic for Graph Burning
-Original implementation of Centrality Based Genetic Algorithm ([CBGA](link)): state-of-the-art heuristic for solving the graph burning problem.
+# CBAG: state-of-the-art algorithm for Graph Burning
+Official implementation of Centrality BAsed Genetic-algorithm ([CBAG](https://arxiv.org/abs/2208.01008)): state-of-the-art heuristic for solving the graph burning problem.
 
 ## How to Use
 1. Install the [Boost Library](https://www.boost.org/).
@@ -8,7 +8,7 @@ Original implementation of Centrality Based Genetic Algorithm ([CBGA](link)): st
 5. Assuming your file is named `graph.csv` and you wish to find a solution with burning length `10`, run the following commands in your terminal: 
 ```bash
 $ make
-$ ./CBGA dataset.csv 10
+$ ./CBAG graph.csv 10
 ```
 ## Dataset
 In order to use the algorithm for any desired graph:
@@ -51,7 +51,6 @@ In order to use the algorithm for any desired graph:
     3 4 56.7
     ```
 2. Place your file in the `./Data` folder and run the algorithm. 
-
 You may refer to `./Data` folder in the repository for several examples.
 ## License
 This project is licensed under the terms of the MIT license.

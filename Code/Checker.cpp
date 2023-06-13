@@ -78,8 +78,10 @@ bool Checker::check(vector<int> solution, int verbose) {
             burnIndex++;
             int depth = burnIndex;
             BFSQueue.push({depth, solution[burnIndex]});
-            nodeMark[solution[burnIndex]] = 1;
-            count++;
+            if (nodeMark[solution[burnIndex]] == 0) {
+                nodeMark[solution[burnIndex]] = 1;
+                count++;
+            }
         }
     }
     if (count == nodes)
